@@ -1,0 +1,170 @@
+html {
+  overflow-y: scroll;
+  background-image:url('http://anband.spb.ru/images/100/DSC100146850.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.last-que {
+  background: #1c2739;
+    display: inline-block;
+    border: 20px solid #fff;
+}
+
+html, body {
+  height: 100%;
+  padding: 15px;
+}
+
+.AppTitle {
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.navigation-button {
+  padding: 20px;
+  display: inline;
+}
+
+.avatar.avatar-img {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.view-box {
+  background: #1c2739;
+      background-color: rgb(28, 39, 57);
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  display: inline-flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.view-box.small select {
+  margin-left: 28px;
+}
+
+.container {
+  overflow-y: scroll;
+  height: 300px;
+  padding: 60px 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation-button.active {
+  background-color: #4b2b2b;
+}
+
+.score-box {
+  background: #1c2739;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid;
+  border-radius: 10px;
+  width: 43%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.topbar {
+  background: #ccc;
+  box-shadow: inset 0px -5px 10px 0px #aaa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout-button {
+  margin-left: 5px;
+  padding: 5px;
+  box-shadow: 0 0 15px 0 grey;
+  background-color: #fff;
+  border: 0 solid grey;
+  border-radius: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.view-box.small {
+  width: 500px;
+  align-items: center;
+}
+
+
+.user-avatar.small {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.details {
+  margin: 10px;
+  width: 400px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  flex: 3;
+}
+
+.user-scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 120%;
+  flex: 4;
+  align-items: center;
+}
+
+.user-scores p {
+  color: #fff;
+}
+
+.ansChoice.active {
+  box-shadow: 0 0 5px 0px #999;
+  background-color: #999;
+}
+
+.error {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
